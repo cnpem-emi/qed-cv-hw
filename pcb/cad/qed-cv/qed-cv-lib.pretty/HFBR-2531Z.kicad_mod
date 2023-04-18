@@ -94,4 +94,9 @@
   (pad "4" thru_hole oval (at -3.81 4.318) (size 1.524 3.048) (drill 1.016) (layers *.Cu *.Mask) (tstamp 9733d5ad-fbac-48e4-b321-3fd32610bc70))
   (pad "5" thru_hole oval (at -3.81 11.938) (size 1.524 3.048) (drill 1.016) (layers *.Cu *.Mask) (tstamp 233696ff-6931-4f8d-9b56-07a75b5320d4))
   (pad "8" thru_hole oval (at 3.81 11.938) (size 1.524 3.048) (drill 1.016) (layers *.Cu *.Mask) (tstamp c5420131-0f2c-4306-9509-a170b63a269b))
+  (model "${KIPRJMOD}/3dmodels/HFBR-2531.step"
+    (offset (xyz 0 -8.125 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
 )
