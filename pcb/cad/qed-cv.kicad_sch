@@ -3798,7 +3798,7 @@
     (uuid 435d78d4-acae-4435-8d2d-5c055f7e6f1d)
     (property "Reference" "U1" (id 0) (at 167.64 20.32 0))
     (property "Value" "L7805CV" (id 1) (at 167.64 22.86 0))
-    (property "Footprint" "digikey-footprints:TO-220-3" (id 2) (at 172.72 22.86 0)
+    (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical" (id 2) (at 172.72 22.86 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
     (property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" (id 3) (at 172.72 20.32 0)
@@ -4395,7 +4395,7 @@
   (symbol (lib_id "power:GND") (at 144.78 186.69 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8c34754c-6f53-4e5f-869e-0398a558d74e)
-    (property "Reference" "#PWR?" (id 0) (at 144.78 193.04 0)
+    (property "Reference" "#PWR0104" (id 0) (at 144.78 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 144.78 191.77 0))
@@ -5538,7 +5538,7 @@
       (reference "#PWR0103") (unit 1) (value "+15V") (footprint "")
     )
     (path "/8c34754c-6f53-4e5f-869e-0398a558d74e"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
     )
     (path "/ed82007f-0e81-40bd-a257-8fc634d5a66d"
       (reference "C1") (unit 1) (value "47u") (footprint "Capacitor_THT:CP_Radial_Tantal_D7.0mm_P5.00mm")
@@ -5685,7 +5685,7 @@
       (reference "TP6") (unit 1) (value "TestPoint") (footprint "qed-cv-lib:TestPoint_Keystone_5010-5014_Multipurpose")
     )
     (path "/435d78d4-acae-4435-8d2d-5c055f7e6f1d"
-      (reference "U1") (unit 1) (value "L7805CV") (footprint "digikey-footprints:TO-220-3")
+      (reference "U1") (unit 1) (value "L7805CV") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
     )
     (path "/fa65275e-24ad-430c-824a-bd7e06922b9b"
       (reference "U2") (unit 1) (value "40106") (footprint "Package_DIP:DIP-14_W7.62mm_Socket_LongPads")
