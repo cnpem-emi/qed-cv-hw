@@ -30,7 +30,6 @@
   (fp_line (start -12.45 4.95) (end 12.45 4.95) (layer "F.Fab") (width 0.1) (tstamp 652f243d-bc7c-417e-9688-b203ba5c7e05))
   (fp_line (start -12.45 -4.95) (end -12.45 4.95) (layer "F.Fab") (width 0.1) (tstamp c6c6c031-aa19-4e3e-a9d8-9fc10016c456))
   (fp_line (start 12.45 -4.95) (end -12.45 -4.95) (layer "F.Fab") (width 0.1) (tstamp e63bf54d-56f9-4f2e-a6ac-3a04cae33208))
-  (pad "" np_thru_hole circle (at 0 0) (size 2.7 2.7) (drill 2.7) (layers *.Cu *.Mask) (tstamp 62b50ec1-76ac-4393-bf13-9d259648ee91))
   (pad "1" thru_hole circle (at -11 0) (size 3.5 3.5) (drill 1.75) (layers *.Cu *.Mask) (tstamp 7211d299-60a0-42fd-a723-80524bf479e5))
   (pad "2" thru_hole circle (at 11 0) (size 3.5 3.5) (drill 1.75) (layers *.Cu *.Mask) (tstamp 979ab777-8efe-4e1f-8330-ee9d62118be8))
   (model "${KIPRJMOD}/3dmodels/ZH242.STEP"
